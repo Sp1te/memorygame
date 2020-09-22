@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'img/pizza.png'
         }
     ]
+    cardArray.sort(() => 0.5 - Math.random());
 
     const grid = document.querySelector('.grid');
     const result = document.querySelector('#result')
